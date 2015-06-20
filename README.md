@@ -3,8 +3,7 @@
 This exercise is the final project for the [Getting and cleaning Data](https://class.coursera.org/getdata-015)
 course taught by [Dr. Jeff Leek](http://jtleek.com/teaching/) on [Coursera](http://coursera.org). The objective of this
 project is to transform data available from [this location](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-into a tidy dataset containing consolidated data aggregating observed values per subject and action. The original data was collected of the accelerometers from the Samsung Galaxy S
-smartphones and is maintained at [the UCI machine learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+into a tidy dataset containing consolidated data aggregating observed values per subject and action. The original data was collected from the accelerometers of Samsung Galaxy S smartphones and is maintained at [the UCI machine learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
 ## Repository contents
 The repository has the following files of interest:
