@@ -26,141 +26,141 @@ The descriptions of individual columns are as follows:
 * __subject :__ Subject ID of the subject performing the experiment as extracted from _test/subject_test.txt_ and
 _train/subject_train.txt_
 * __activity :__ Activity that was performed as defined in _activity_list.txt_
-* __tBodyAcc.mean.Z :__ Mean value of time domain Body linear acceleration in Z direction 
+* __tBodyAcc.mean.Z :__ Mean value of time domain body linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAcc.std.X :__ Standard deviation of time domain Body linear acceleration in X direction 
+* __tBodyAcc.std.X :__ Standard deviation of time domain body linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAcc.std.Y :__ Standard deviation of time domain Body linear acceleration in Y direction 
+* __tBodyAcc.std.Y :__ Standard deviation of time domain body linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAcc.std.Z :__ Standard deviation of time domain Body linear acceleration in Z direction 
+* __tBodyAcc.std.Z :__ Standard deviation of time domain body linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.mean.X :__ Mean value of time domain Gravity linear acceleration in X direction 
+* __tGravityAcc.mean.X :__ Mean value of time domain gravity linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.mean.Y :__ Mean value of time domain Gravity linear acceleration in Y direction 
+* __tGravityAcc.mean.Y :__ Mean value of time domain gravity linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.mean.Z :__ Mean value of time domain Gravity linear acceleration in Z direction 
+* __tGravityAcc.mean.Z :__ Mean value of time domain gravity linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.std.X :__ Standard deviation of time domain Gravity linear acceleration in X direction 
+* __tGravityAcc.std.X :__ Standard deviation of time domain gravity linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.std.Y :__ Standard deviation of time domain Gravity linear acceleration in Y direction 
+* __tGravityAcc.std.Y :__ Standard deviation of time domain gravity linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __tGravityAcc.std.Z :__ Standard deviation of time domain Gravity linear acceleration in Z direction 
+* __tGravityAcc.std.Z :__ Standard deviation of time domain gravity linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.mean.X :__ Mean value of time domain Body linear acceleration jerk signal in X direction 
+* __tBodyAccJerk.mean.X :__ Mean value of time domain body linear acceleration jerk signal in X direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.mean.Y :__ Mean value of time domain Body linear acceleration jerk signal in Y direction 
+* __tBodyAccJerk.mean.Y :__ Mean value of time domain body linear acceleration jerk signal in Y direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.mean.Z :__ Mean value of time domain Body linear acceleration jerk signal in Z direction 
+* __tBodyAccJerk.mean.Z :__ Mean value of time domain body linear acceleration jerk signal in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.std.X :__ Standard deviation of time domain Body linear acceleration jerk signal in X direction 
+* __tBodyAccJerk.std.X :__ Standard deviation of time domain body linear acceleration jerk signal in X direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.std.Y :__ Standard deviation of time domain Body linear acceleration jerk signal in Y direction 
+* __tBodyAccJerk.std.Y :__ Standard deviation of time domain body linear acceleration jerk signal in Y direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerk.std.Z :__ Standard deviation of time domain Body linear acceleration jerk signal in Z direction 
+* __tBodyAccJerk.std.Z :__ Standard deviation of time domain body linear acceleration jerk signal in Z direction 
 (units: ``standard gravity units 'g'``)
-* __tBodyGyro.mean.X :__ Mean value of time domain Body angular velocity in X direction 
+* __tBodyGyro.mean.X :__ Mean value of time domain body angular velocity in X direction 
 (units: ``radians/sec``)
-* __tBodyGyro.mean.Y :__ Mean value of time domain Body angular velocity in Y direction 
+* __tBodyGyro.mean.Y :__ Mean value of time domain body angular velocity in Y direction 
 (units: ``radians/sec``)
-* __tBodyGyro.mean.Z :__ Mean value of time domain Body angular velocity in Z direction 
+* __tBodyGyro.mean.Z :__ Mean value of time domain body angular velocity in Z direction 
 (units: ``radians/sec``)
-* __tBodyGyro.std.X :__ Standard deviation of time domain Body angular velocity in X direction 
+* __tBodyGyro.std.X :__ Standard deviation of time domain body angular velocity in X direction 
 (units: ``radians/sec``)
-* __tBodyGyro.std.Y :__ Standard deviation of time domain Body angular velocity in Y direction 
+* __tBodyGyro.std.Y :__ Standard deviation of time domain body angular velocity in Y direction 
 (units: ``radians/sec``)
-* __tBodyGyro.std.Z :__ Standard deviation of time domain Body angular velocity in Z direction 
+* __tBodyGyro.std.Z :__ Standard deviation of time domain body angular velocity in Z direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.mean.X :__ Mean value of time domain Body angular velocity jerk signal in X direction 
+* __tBodyGyroJerk.mean.X :__ Mean value of time domain body angular velocity jerk signal in X direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.mean.Y :__ Mean value of time domain Body angular velocity jerk signal in Y direction 
+* __tBodyGyroJerk.mean.Y :__ Mean value of time domain body angular velocity jerk signal in Y direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.mean.Z :__ Mean value of time domain Body angular velocity jerk signal in Z direction 
+* __tBodyGyroJerk.mean.Z :__ Mean value of time domain body angular velocity jerk signal in Z direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.std.X :__ Standard deviation of time domain Body angular velocity jerk signal in X direction 
+* __tBodyGyroJerk.std.X :__ Standard deviation of time domain body angular velocity jerk signal in X direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.std.Y :__ Standard deviation of time domain Body angular velocity jerk signal in Y direction 
+* __tBodyGyroJerk.std.Y :__ Standard deviation of time domain body angular velocity jerk signal in Y direction 
 (units: ``radians/sec``)
-* __tBodyGyroJerk.std.Z :__ Standard deviation of time domain Body angular velocity jerk signal in Z direction 
+* __tBodyGyroJerk.std.Z :__ Standard deviation of time domain body angular velocity jerk signal in Z direction 
 (units: ``radians/sec``)
-* __tBodyAccMag.mean :__ Mean value of time domain Body linear acceleration magnitude  
+* __tBodyAccMag.mean :__ Mean value of time domain body linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __tBodyAccMag.std :__ Standard deviation of time domain Body linear acceleration magnitude  
+* __tBodyAccMag.std :__ Standard deviation of time domain body linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __tGravityAccMag.mean :__ Mean value of time domain Gravity linear acceleration magnitude  
+* __tGravityAccMag.mean :__ Mean value of time domain gravity linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __tGravityAccMag.std :__ Standard deviation of time domain Gravity linear acceleration magnitude  
+* __tGravityAccMag.std :__ Standard deviation of time domain gravity linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerkMag.mean :__ Mean value of time domain Body linear acceleration jerk signal magnitude  
+* __tBodyAccJerkMag.mean :__ Mean value of time domain body linear acceleration jerk signal magnitude  
 (units: ``standard gravity units 'g'``)
-* __tBodyAccJerkMag.std :__ Standard deviation of time domain Body linear acceleration jerk signal magnitude  
+* __tBodyAccJerkMag.std :__ Standard deviation of time domain body linear acceleration jerk signal magnitude  
 (units: ``standard gravity units 'g'``)
-* __tBodyGyroMag.mean :__ Mean value of time domain Body angular velocity magnitude  
+* __tBodyGyroMag.mean :__ Mean value of time domain body angular velocity magnitude  
 (units: ``radians/sec``)
-* __tBodyGyroMag.std :__ Standard deviation of time domain Body angular velocity magnitude  
+* __tBodyGyroMag.std :__ Standard deviation of time domain body angular velocity magnitude  
 (units: ``radians/sec``)
-* __tBodyGyroJerkMag.mean :__ Mean value of time domain Body angular velocity jerk signal magnitude  
+* __tBodyGyroJerkMag.mean :__ Mean value of time domain body angular velocity jerk signal magnitude  
 (units: ``radians/sec``)
-* __tBodyGyroJerkMag.std :__ Standard deviation of time domain Body angular velocity jerk signal magnitude  
+* __tBodyGyroJerkMag.std :__ Standard deviation of time domain body angular velocity jerk signal magnitude  
 (units: ``radians/sec``)
-* __fBodyAcc.mean.X :__ Mean value of frequency domain Body linear acceleration in X direction 
+* __fBodyAcc.mean.X :__ Mean value of frequency domain body linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.mean.Y :__ Mean value of frequency domain Body linear acceleration in Y direction 
+* __fBodyAcc.mean.Y :__ Mean value of frequency domain body linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.mean.Z :__ Mean value of frequency domain Body linear acceleration in Z direction 
+* __fBodyAcc.mean.Z :__ Mean value of frequency domain body linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.std.X :__ Standard deviation of frequency domain Body linear acceleration in X direction 
+* __fBodyAcc.std.X :__ Standard deviation of frequency domain body linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.std.Y :__ Standard deviation of frequency domain Body linear acceleration in Y direction 
+* __fBodyAcc.std.Y :__ Standard deviation of frequency domain body linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.std.Z :__ Standard deviation of frequency domain Body linear acceleration in Z direction 
+* __fBodyAcc.std.Z :__ Standard deviation of frequency domain body linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.meanFreq.X :__ Mean frequency of frequency domain Body linear acceleration in X direction 
+* __fBodyAcc.meanFreq.X :__ Mean frequency of frequency domain body linear acceleration in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.meanFreq.Y :__ Mean frequency of frequency domain Body linear acceleration in Y direction 
+* __fBodyAcc.meanFreq.Y :__ Mean frequency of frequency domain body linear acceleration in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAcc.meanFreq.Z :__ Mean frequency of frequency domain Body linear acceleration in Z direction 
+* __fBodyAcc.meanFreq.Z :__ Mean frequency of frequency domain body linear acceleration in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.mean.X :__ Mean value of frequency domain Body linear acceleration jerk signal in X direction 
+* __fBodyAccJerk.mean.X :__ Mean value of frequency domain body linear acceleration jerk signal in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.mean.Y :__ Mean value of frequency domain Body linear acceleration jerk signal in Y direction 
+* __fBodyAccJerk.mean.Y :__ Mean value of frequency domain body linear acceleration jerk signal in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.mean.Z :__ Mean value of frequency domain Body linear acceleration jerk signal in Z direction 
+* __fBodyAccJerk.mean.Z :__ Mean value of frequency domain body linear acceleration jerk signal in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.std.X :__ Standard deviation of frequency domain Body linear acceleration jerk signal in X direction 
+* __fBodyAccJerk.std.X :__ Standard deviation of frequency domain body linear acceleration jerk signal in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.std.Y :__ Standard deviation of frequency domain Body linear acceleration jerk signal in Y direction 
+* __fBodyAccJerk.std.Y :__ Standard deviation of frequency domain body linear acceleration jerk signal in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.std.Z :__ Standard deviation of frequency domain Body linear acceleration jerk signal in Z direction 
+* __fBodyAccJerk.std.Z :__ Standard deviation of frequency domain body linear acceleration jerk signal in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.meanFreq.X :__ Mean frequency of frequency domain Body linear acceleration jerk signal in X direction 
+* __fBodyAccJerk.meanFreq.X :__ Mean frequency of frequency domain body linear acceleration jerk signal in X direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.meanFreq.Y :__ Mean frequency of frequency domain Body linear acceleration jerk signal in Y direction 
+* __fBodyAccJerk.meanFreq.Y :__ Mean frequency of frequency domain body linear acceleration jerk signal in Y direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyAccJerk.meanFreq.Z :__ Mean frequency of frequency domain Body linear acceleration jerk signal in Z direction 
+* __fBodyAccJerk.meanFreq.Z :__ Mean frequency of frequency domain body linear acceleration jerk signal in Z direction 
 (units: ``standard gravity units 'g'``)
-* __fBodyGyro.mean.X :__ Mean value of frequency domain Body angular velocity in X direction 
+* __fBodyGyro.mean.X :__ Mean value of frequency domain body angular velocity in X direction 
 (units: ``radians/sec``)
-* __fBodyGyro.mean.Y :__ Mean value of frequency domain Body angular velocity in Y direction 
+* __fBodyGyro.mean.Y :__ Mean value of frequency domain body angular velocity in Y direction 
 (units: ``radians/sec``)
-* __fBodyGyro.mean.Z :__ Mean value of frequency domain Body angular velocity in Z direction 
+* __fBodyGyro.mean.Z :__ Mean value of frequency domain body angular velocity in Z direction 
 (units: ``radians/sec``)
-* __fBodyGyro.std.X :__ Standard deviation of frequency domain Body angular velocity in X direction 
+* __fBodyGyro.std.X :__ Standard deviation of frequency domain body angular velocity in X direction 
 (units: ``radians/sec``)
-* __fBodyGyro.std.Y :__ Standard deviation of frequency domain Body angular velocity in Y direction 
+* __fBodyGyro.std.Y :__ Standard deviation of frequency domain body angular velocity in Y direction 
 (units: ``radians/sec``)
-* __fBodyGyro.std.Z :__ Standard deviation of frequency domain Body angular velocity in Z direction 
+* __fBodyGyro.std.Z :__ Standard deviation of frequency domain body angular velocity in Z direction 
 (units: ``radians/sec``)
-* __fBodyGyro.meanFreq.X :__ Mean frequency of frequency domain Body angular velocity in X direction 
+* __fBodyGyro.meanFreq.X :__ Mean frequency of frequency domain body angular velocity in X direction 
 (units: ``radians/sec``)
-* __fBodyGyro.meanFreq.Y :__ Mean frequency of frequency domain Body angular velocity in Y direction 
+* __fBodyGyro.meanFreq.Y :__ Mean frequency of frequency domain body angular velocity in Y direction 
 (units: ``radians/sec``)
-* __fBodyGyro.meanFreq.Z :__ Mean frequency of frequency domain Body angular velocity in Z direction 
+* __fBodyGyro.meanFreq.Z :__ Mean frequency of frequency domain body angular velocity in Z direction 
 (units: ``radians/sec``)
-* __fBodyAccMag.mean :__ Mean value of frequency domain Body linear acceleration magnitude  
+* __fBodyAccMag.mean :__ Mean value of frequency domain body linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __fBodyAccMag.std :__ Standard deviation of frequency domain Body linear acceleration magnitude  
+* __fBodyAccMag.std :__ Standard deviation of frequency domain body linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
-* __fBodyAccMag.meanFreq :__ Mean frequency of frequency domain Body linear acceleration magnitude  
+* __fBodyAccMag.meanFreq :__ Mean frequency of frequency domain body linear acceleration magnitude  
 (units: ``standard gravity units 'g'``)
 * __fBodyBodyAccJerkMag.mean :__ Mean value of frequency domain BodyBody linear acceleration jerk signal magnitude  
 (units: ``standard gravity units 'g'``)
