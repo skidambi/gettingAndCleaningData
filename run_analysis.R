@@ -24,35 +24,35 @@ readDatatable <- function( group, featureTable, activityLabels ) {
   # This function reads the data in the test and train dataasets and organizes
   # them as instructed in the assignment. Inline comments explain the actual steps
   
-	# group should be either "test" or "train"
-	if( group != "test" && group != "train" ) {
-		stop( paste0("invalid value for group argument ", group, "; should be one of test or train") )
-	}
+  # group should be either "test" or "train"
+  if( group != "test" && group != "train" ) {
+    stop( paste0("invalid value for group argument ", group, "; should be one of test or train") )
+  }
 
   # Read activity list corresponding to observations in dataset
   activityTable <- read.table( paste0(group, "/y_", group, ".txt"), 
                               col.names="activity" )
-	# Read dataset using supplied feature names as columns
-	dataset <- read.table( paste0(group, "/X_", group, ".txt"),
-												col.names=featureTable$feature,colClasses="double")
-	# Since we will only operate on a subset of this data, discard unnecessary columns
-	# this reduces the size of data being operated on
-	# Select only features with mean or std in their name
-	dataset <- select(dataset,grep("mean|std",featureTable$feature,
-																ignore.case=TRUE))
-	# From features_info.txt - angle() observations are not really average values
-	# they just represent angles between averaged vectors, so discard them too
-	dataset <- select(dataset,
-									 grep("^(?!angle)",names(dataset), ignore.case=TRUE, perl=TRUE))
-	# Append an activity column indicating the activity name of each observation
-	dataset$activity <- activityLabels$Name[activityTable$activity]
-	# Read list of subjects and append it to dataset
-	subjectTable <- read.table(paste0(group, "/subject_", group, ".txt"), col.names="subject")
-	dataset$subject <- subjectTable$subject
-	# Assign a SubjectType column to identify these observations - commented out
-	# dataset$subjectType <- group
+  # Read dataset using supplied feature names as columns
+  dataset <- read.table( paste0(group, "/X_", group, ".txt"),
+                        col.names=featureTable$feature,colClasses="double")
+  # Since we will only operate on a subset of this data, discard unnecessary columns
+  # this reduces the size of data being operated on
+  # Select only features with mean or std in their name
+  dataset <- select(dataset,grep("mean|std",featureTable$feature,
+                                ignore.case=TRUE))
+  # From features_info.txt - angle() observations are not really average values
+  # they just represent angles between averaged vectors, so discard them too
+  dataset <- select(dataset,
+                   grep("^(?!angle)",names(dataset), ignore.case=TRUE, perl=TRUE))
+  # Append an activity column indicating the activity name of each observation
+  dataset$activity <- activityLabels$Name[activityTable$activity]
+  # Read list of subjects and append it to dataset
+  subjectTable <- read.table(paste0(group, "/subject_", group, ".txt"), col.names="subject")
+  dataset$subject <- subjectTable$subject
+  # Assign a SubjectType column to identify these observations - commented out
+  # dataset$subjectType <- group
   # return the dataset
-	dataset
+  dataset
 }
 
 # Read features table which contains 561 feature names recorded in the datasets
