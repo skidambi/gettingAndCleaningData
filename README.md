@@ -49,9 +49,9 @@ The original data was transformed as follows:
     1. The x_train.txt or x_test.txt dataset is read using the feature names obtained in step 1 as columns
     2. The y_train.txt or y_test.txt file is read in to obtain the activity IDs for corresponding
        observations in the dataset
-    3. The subject_train.txt or subject_test.txt file is read in to obtain the subject IDS for corresponding
+    3. The subject_train.txt or subject_test.txt file is read in to obtain the subject IDs for corresponding
        observations in the dataset
-    4. The dataset obtainind from step 1 is filtered to retain only columns representing sum or standard deviation values
+    4. The dataset obtained from step 1 is filtered to retain only columns representing sum or standard deviation values
     5. The data read in steps 2 and 3 are appended as _activity_ (after mapping via the activity labels read in earlier)
        and _subject_ columns to the dataset in step 4
 4. The resulting train and test datasets are merged into a single dataset called _masterDataset_
