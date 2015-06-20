@@ -8,16 +8,16 @@ into a tidy dataset containing consolidated data aggregating observed values per
 ## Repository contents
 The repository has the following files of interest:
 
-1. Readme.md - this file which has an overview of the contents
-2. run_activity.R - an R script continaing code to read in the downloaded data, transform it as required and
+1. Readme.md: this file which has an overview of the contents
+2. run_activity.R: an R script continaing code to read in the downloaded data, transform it as required and
    write out a tidy dataset called tidyDataset.txt to the working directory
-3. codebook.md - a code book describing the output variables in the tidy dataset
-4. tidyDataset.txt - the output tidy dataset obtained by running run_activity.R on downloaded data
+3. codebook.md: a code book describing the output variables in the tidy dataset
+4. tidyDataset.txt: the output tidy dataset obtained by running run_activity.R on downloaded data
 
 ## Running the code
 1. Save this code as "run_analysis.R"
 2. Change working directory to the _UCI HAR Dataset_ folder of the downloaded data
-3. source "run_analysis.R" (use appropriate path to the saved file)
+3. ```source "run_analysis.R"``` (use appropriate path to the saved file)
 
 ## Requirements
 The following files and directories are expected to exist in the working directory
