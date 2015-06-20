@@ -22,19 +22,19 @@ The repository has the following files of interest:
 ## Requirements
 The following files and directories are expected to exist in the working directory
 (as contained in the _UCI HAR Dataset_ folder of downloaded data) :
-   - features.txt
-   - activity_labels.txt
-   - a directory called "train" containing the following files:
-       - x_train.txt
-       - y_train.txt
-       - subject_train.txt
-   - a directory called "test" containing the following files:
-       - x_test.txt
-       - y_test.txt
-       - subject_test.txt
+   - a _features.txt_ file
+   - an _activity_labels.txt_ file
+   - a directory called _train_ containing the following files:
+       - _x_train.txt_
+       - _y_train.txt_
+       - _subject_train.txt_
+   - a directory called _test_ containing the following files:
+       - _x_test.txt_
+       - _y_test.txt_
+       - _subject_test.txt_
 
 ## Output
-The code creates a single output file called ```tidyDataset.txt``` which is a tidy dataset containing the transformed
+The code creates a single output file called _tidyDataset.txt_ which is a tidy dataset containing the transformed
 variables as described below
 
 ## Data transformation steps
