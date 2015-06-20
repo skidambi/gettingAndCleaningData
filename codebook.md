@@ -5,7 +5,7 @@ The source data for this exercise was obtained from
 [this location](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 as part of the final project for [Getting and Cleaning Data](https://class.coursera.org/getdata-015)
 course taught by [Dr. Jeff Leek](http://jtleek.com/teaching/) on [Coursera](http://coursera.org).
-See the [Readme](https://github.com/skidambi/gettingAndCleaningData/Readme.md) file for more information.
+See the [Readme](https://github.com/skidambi/gettingAndCleaningData/blob/master/README.md) file for more information.
 
 ## Variable transformations
 1. The test and train datasets were consolidated to contain subject ID, activity name and observation variables
