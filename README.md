@@ -51,7 +51,7 @@ The original data was transformed as follows:
        observations in the dataset
     3. The subject_train.txt or subject_test.txt file is read in to obtain the subject IDs for corresponding
        observations in the dataset
-    4. The dataset obtained from step 1 is filtered to retain only columns representing sum or standard deviation values
+    4. The dataset obtained from step 1 is filtered to retain only columns representing sum or standard deviation values. The column names containing the words _mean_ or _std_ are picked. Note that the _angle()_ observations are discarded inspite of having _mean_ in their name, because they just represent angles between averaged vectors (from _features_info.txt_).
     5. The data read in steps 2 and 3 are appended as _activity_ (after mapping via the activity labels read in earlier)
        and _subject_ columns to the dataset in step 4
 4. The resulting train and test datasets are merged into a single dataset called _masterDataset_
