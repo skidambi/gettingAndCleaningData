@@ -29,21 +29,22 @@ readDatatable <- function( group, featureTable, activityLabels ) {
     stop( paste0("invalid value for group argument ", group, "; should be one of test or train") )
   }
 
-  # Read activity list corresponding to observations in dataset
-  activityTable <- read.table( paste0(group, "/y_", group, ".txt"), 
-                              col.names="activity" )
   # Read dataset using supplied feature names as columns
   dataset <- read.table( paste0(group, "/X_", group, ".txt"),
                         col.names=featureTable$feature,colClasses="double")
   # Since we will only operate on a subset of this data, discard unnecessary columns
   # this reduces the size of data being operated on
   # Select only features with mean or std in their name
+  # or do dataset <- dataset[,grepl("mean()|std()",names(tidytrain))] ???
   dataset <- select(dataset,grep("mean|std",featureTable$feature,
                                 ignore.case=TRUE))
   # From features_info.txt - angle() observations are not really average values
   # they just represent angles between averaged vectors, so discard them too
   dataset <- select(dataset,
                    grep("^(?!angle)",names(dataset), ignore.case=TRUE, perl=TRUE))
+  # Read activity list corresponding to observations in dataset
+  activityTable <- read.table( paste0(group, "/y_", group, ".txt"), 
+                              col.names="activity" )
   # Append an activity column indicating the activity name of each observation
   dataset$activity <- activityLabels$Name[activityTable$activity]
   # Read list of subjects and append it to dataset
@@ -87,3 +88,7 @@ tidyDataset <- tidyDataset[c(2,1,3:length(tidyDataset))]
 write.table(tidyDataset, "tidyDataset.txt", row.names=FALSE)
 message(paste( "A tidy dataset file called 'tidyDataset.txt' has been written to",
                getwd()))
+
+#another way: tidydata <- describeddata %>% group_by(Activity,Subject) %>% summarise_each(funs(mean))
+# describeddata$Activity <- as.factor(describeddata$Activity)
+# levels(describeddata$Activity) <- activitynames
